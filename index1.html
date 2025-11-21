@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style1.css" />
+	<title>Terra-Ship Logistics Tracker</title>
+</head>
+<body>
+
+  	<h1><ion-icon name="planet-outline"></ion-icon> Terra-Ship Logistics</h1>
+  	<p>Track your interplanetary package between Earth and Mars!</p>
+
+  	<div class="tracker-box">
+    		<ion-icon name="cube-outline"></ion-icon>
+    		<input type="text" id="trackingID" placeholder="Enter Tracking ID (e.g., MARS-101)">
+    		<br>
+    		<button onclick="trackPackage()">
+      			<ion-icon name="search-outline"></ion-icon> Track
+    		</button>
+    		<button onclick="notifyArrival()">
+      			<ion-icon name="notifications-outline"></ion-icon> Notify on Arrival
+    		</button>
+
+    		<div id="message"></div>
+    		<div id="status" class="status"></div>
+  	</div>                                                                                                                                                                                                      <br>
+	<br>
+	<p style="margin-top: 30px; color: #ccc; font-size: 1em;">
+    		For further queries, contact customer helpline 
+  		<ion-icon name="call-outline"></ion-icon>
+  		<strong>080-765 4320</strong>.
+  		<br>
+  		Alternatively, you can raise a complaint on our 
+  		<a href="https://www.customercare-marslogistics.com" target="_blank" style="color: #ff9100; text-decoration: none;">
+    		Customer Care Website</a>.
+	</p>
+<script src="script1.js"></script>
+
+<!-- Ionicons -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
